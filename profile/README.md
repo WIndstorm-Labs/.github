@@ -10,15 +10,15 @@ This organization contains runnable experiments, raw data, and analysis code sup
 
 | # | Repository | Status | Compute | Key Result |
 |---|------------|--------|---------|------------|
-| 1 | [fons-constraint](./fons-constraint) | 📋 Planned | — | 64-codon derivation |
-| 2 | [receiver-limited-floor](./receiver-limited-floor) | ✅ Complete | ~8 hrs RTX 5090 | 1,749 models, BPT ⊥ vocab |
-| 3 | [throughput-basin](./throughput-basin) | 📋 Planned | Meta-analysis | 31 systems |
-| 4 | [dissipative-decoder](./dissipative-decoder) | 📋 Planned | ~6 hrs RTX 5090 | 27-model energy benchmark |
-| 5 | [serial-decoding-basin](./serial-decoding-basin) | 📋 Planned | — | τ = 4.16 ± 0.19 bits |
-| 6 | [inherited-constraint](./inherited-constraint) | 📋 Planned | ~4 hrs RTX 5090 | 7-corpus shuffling |
-| 7 | [agi-extensions](./agi-extensions) | 🚧 In Progress | 32-56 hrs RTX 5090 | 6 new experiments |
+| 1 | [fons-constraint](https://github.com/Windstorm-Labs/fons-constraint) | ✅ Published | — | 64-codon derivation |
+| 2 | [receiver-limited-floor](https://github.com/Windstorm-Labs/receiver-limited-floor) | ✅ Complete | ~8 hrs RTX 5090 | 1,749 models, BPT ⊥ vocab |
+| 3 | [throughput-basin](https://github.com/Windstorm-Labs/throughput-basin) | ✅ Published | Meta-analysis | 31 systems |
+| 4 | [dissipative-decoder](https://github.com/Windstorm-Labs/dissipative-decoder) | ✅ Published | ~6 hrs RTX 5090 | 27-model energy benchmark |
+| 5 | [serial-decoding-basin](https://github.com/Windstorm-Labs/serial-decoding-basin) | ✅ Published | — | τ = 4.16 ± 0.19 bits |
+| 6 | [inherited-constraint](https://github.com/Windstorm-Labs/inherited-constraint) | ✅ Published | ~4 hrs RTX 5090 | 7-corpus shuffling |
+| 7 | [agi-extensions](https://github.com/Windstorm-Labs/agi-extensions) | 🚧 In Progress | 32-56 hrs RTX 5090 | 6 new experiments |
 
-Legend: ✅ Complete | 🚧 In Progress | 📋 Planned
+Legend: ✅ Complete (paper + code) | ✅ Published (paper on Zenodo) | 🚧 In Progress
 
 ---
 
