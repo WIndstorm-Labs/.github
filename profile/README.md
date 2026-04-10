@@ -16,7 +16,7 @@
 | 4 | [serial-decoding-basin](https://github.com/Windstorm-Labs/serial-decoding-basin) | ✅ Published | [10.5281/zenodo.19323423](https://doi.org/10.5281/zenodo.19323423) | — |
 | 5 | [dissipative-decoder](https://github.com/Windstorm-Labs/dissipative-decoder) | ✅ Published | [10.5281/zenodo.19433048](https://doi.org/10.5281/zenodo.19433048) | ~6 hrs RTX 5090 |
 | 6 | [inherited-constraint](https://github.com/Windstorm-Labs/inherited-constraint) | ✅ Published | [10.5281/zenodo.19432911](https://doi.org/10.5281/zenodo.19432911) | ~4 hrs RTX 5090 |
-| 7 | [agi-extensions](https://github.com/Windstorm-Labs/agi-extensions) | 🟡 Preprint | Pending Paper 7.1 | ~14.5 hrs RTX 5090 |
+| 7 | [agi-extensions](https://github.com/Windstorm-Labs/agi-extensions) | 🟡 [PDF](https://github.com/sneakyfree/agi-extensions/blob/main/paper/Paper7-Throughput-Basin-Origin-v1.2.pdf) | Pending Paper 7.1 | ~14.5 hrs RTX 5090 |
 
 **Paper 7 canonical repository:** [sneakyfree/agi-extensions](https://github.com/sneakyfree/agi-extensions). The Labs mirror tracks the experiment protocols; the canonical repo holds the formal manuscript, the internal adversarial review, complete CSVs, plots, and the [Paper 7.1 tracking issue](https://github.com/sneakyfree/agi-extensions/issues/1).
 
