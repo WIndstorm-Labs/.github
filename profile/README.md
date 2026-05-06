@@ -11,14 +11,14 @@
 | # | Repository | Status | DOI | Compute |
 |---|------------|--------|-----|---------|
 | 1 | [fons-constraint](https://github.com/Windstorm-Labs/fons-constraint) | ✅ Published | [10.5281/zenodo.19274048](https://doi.org/10.5281/zenodo.19274048) | — |
-| 2 | [receiver-limited-floor](https://github.com/Windstorm-Labs/receiver-limited-floor) | ✅ Published | [10.5281/zenodo.19322973](https://doi.org/10.5281/zenodo.19322973) | ~8 hrs RTX 5090 |
+| 2 | [receiver-limited-floor](https://github.com/Windstorm-Labs/receiver-limited-floor) | ✅ Published | [10.5281/zenodo.19322973](https://doi.org/10.5281/zenodo.19322973) | ~8 hrs Nvidia GPU |
 | 3 | [throughput-basin](https://github.com/Windstorm-Labs/throughput-basin) | ✅ Published | [10.5281/zenodo.19323194](https://doi.org/10.5281/zenodo.19323194) | Meta-analysis |
 | 4 | [serial-decoding-basin](https://github.com/Windstorm-Labs/serial-decoding-basin) | ✅ Published | [10.5281/zenodo.19323423](https://doi.org/10.5281/zenodo.19323423) | — |
-| 5 | [dissipative-decoder](https://github.com/Windstorm-Labs/dissipative-decoder) | ✅ Published | [10.5281/zenodo.19433048](https://doi.org/10.5281/zenodo.19433048) | ~6 hrs RTX 5090 |
-| 6 | [inherited-constraint](https://github.com/Windstorm-Labs/inherited-constraint) | ✅ Published | [10.5281/zenodo.19432911](https://doi.org/10.5281/zenodo.19432911) | ~4 hrs RTX 5090 |
-| 7 | [throughput-basin-origin](https://github.com/Windstorm-Labs/throughput-basin-origin) | ✅ Published | [10.5281/zenodo.19498582](https://doi.org/10.5281/zenodo.19498582) | ~14.5 hrs RTX 5090 |
-| 8 | [vision-basin](https://github.com/Windstorm-Labs/vision-basin) | ✅ Published | [10.5281/zenodo.19672827](https://doi.org/10.5281/zenodo.19672827) | ~30 hrs RTX 5090 |
-| 9 | [hardware-basin](https://github.com/Windstorm-Labs/hardware-basin) | ✅ Published | [10.5281/zenodo.19672921](https://doi.org/10.5281/zenodo.19672921) | ~10 hrs RTX 5090 |
+| 5 | [dissipative-decoder](https://github.com/Windstorm-Labs/dissipative-decoder) | ✅ Published | [10.5281/zenodo.19433048](https://doi.org/10.5281/zenodo.19433048) | ~6 hrs Nvidia GPU |
+| 6 | [inherited-constraint](https://github.com/Windstorm-Labs/inherited-constraint) | ✅ Published | [10.5281/zenodo.19432911](https://doi.org/10.5281/zenodo.19432911) | ~4 hrs Nvidia GPU |
+| 7 | [throughput-basin-origin](https://github.com/Windstorm-Labs/throughput-basin-origin) | ✅ Published | [10.5281/zenodo.19498582](https://doi.org/10.5281/zenodo.19498582) | ~14.5 hrs Nvidia GPU |
+| 8 | [vision-basin](https://github.com/Windstorm-Labs/vision-basin) | ✅ Published | [10.5281/zenodo.19672827](https://doi.org/10.5281/zenodo.19672827) | ~30 hrs Nvidia GPU |
+| 9 | [hardware-basin](https://github.com/Windstorm-Labs/hardware-basin) | ✅ Published | [10.5281/zenodo.19672921](https://doi.org/10.5281/zenodo.19672921) | ~10 hrs Nvidia GPU |
 
 **Paper 7 canonical repository:** [Windstorm-Institute/throughput-basin-origin](https://github.com/Windstorm-Institute/throughput-basin-origin). The Labs mirror tracks the experiment protocols; the canonical repo holds the formal manuscript, the internal adversarial review, complete CSVs, plots, and the [Paper 7.1 tracking issue](https://github.com/Windstorm-Institute/throughput-basin-origin/issues/1).
 
@@ -35,7 +35,7 @@ The same Clausius-inequality lens applied to gravity-adjacent physical systems. 
 | 10 | [phonon-extraction-bound](https://github.com/Windstorm-Labs/phonon-extraction-bound) | ✅ Published | [10.5281/zenodo.20014391](https://doi.org/10.5281/zenodo.20014391) | QuTiP Lindblad — CPU |
 | 11 | [gravitational-entropy-escrow](https://github.com/Windstorm-Labs/gravitational-entropy-escrow) | ✅ Published | [10.5281/zenodo.20032023](https://doi.org/10.5281/zenodo.20032023) | SPARC + Genzel reanalyses — CPU |
 | 12 | [c8-clarification-note](https://github.com/Windstorm-Labs/c8-clarification-note) | ✅ Published | [10.5281/zenodo.20041992](https://doi.org/10.5281/zenodo.20041992) | sympy + numerical — CPU (<1s) |
-| 13 | [lattice-qft-test](https://github.com/Windstorm-Labs/lattice-qft-test) | ✅ Published | [10.5281/zenodo.20043421](https://doi.org/10.5281/zenodo.20043421) | numpy + scipy.linalg.eigh — CPU (~10 min for 1+1D scan); 3+1D companion uses RTX 5090 |
+| 13 | [lattice-qft-test](https://github.com/Windstorm-Labs/lattice-qft-test) | ✅ Published | [10.5281/zenodo.20043421](https://doi.org/10.5281/zenodo.20043421) | numpy + scipy.linalg.eigh — CPU (~10 min for 1+1D scan); 3+1D companion uses Nvidia GPU |
 
 
 ---
@@ -49,7 +49,7 @@ The same Clausius-inequality lens applied to gravity-adjacent physical systems. 
 ## Reproducibility
 
 All experiments designed for:
-- **Hardware:** NVIDIA RTX 5090 (32 GB VRAM)
+- **Hardware:** Current-generation Nvidia GPU (32 GB VRAM, CUDA)
 - **OS:** Ubuntu 24.04
 - **Python:** 3.11+
 
